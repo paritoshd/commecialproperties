@@ -1,0 +1,20 @@
+<div class="result">
+  {{#if listings.length}}
+    {{#each listings}}
+	    <div class="heading-addr">{{this.type}}, Rent: {{this.rent}}</div>
+	    <div class="address">{{this.furnishing}}</div>
+	    <div class="address">{{this.area}}</div>
+	    <div class="address">{{this.gps}}</div>
+	    <div class="address">{{this.phonenumber}}</div>
+	    <div style="font-size: 1.0em;">Address:</div>
+	    <div class="address">
+		  {{this.addr1}} <br/>
+		  {{this.addr2}} <br/>
+		  {{this.addr3}} <br/>
+	    </div>
+	    <br/>
+    {{/each}}
+  {{else}}
+    <div class="heading-addr">No Listings Found.</div>
+  {{/if}}
+</div>

@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #F8F8F8;
+}
+
+#page-header {
+  border-bottom: 1px solid #D4D4D4;
+  box-shadow: 0 1px 3px #D4D4D4;
+  overflow: auto;
+  padding: 15px;
+}
+
+#name {
+  color: #0564A8;
+  float: left;
+  font-size: 18px;
+}
+
+#city {
+  float: left;
+  font-size: 14px;
+  margin: 3px;
+  padding-left: 10px;
+}
+
+#support {
+  background: none repeat scroll 0 0 #808080;
+  color: white;
+  float: right;
+  font-size: 14px;
+  margin-right: 8px;
+  padding: 3px 5px;
+}
+
+#requirement {
+  float: right;
+  background: none repeat scroll 0 0 #007ABE;
+  color: white;
+  font-size: 14px;
+  margin-right: 8px;
+  padding: 3px 5px;
+}
+
+#listings {
+  float: right;
+  background: none repeat scroll 0 0 #404040 ;
+  color: white;
+  font-size: 14px;
+  margin-right: 8px;
+  padding: 3px 5px;
+}
+
+#page-body {
+  overflow: auto;
+  width: 100%;
+}
+
+#mid-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#city-image {
+  padding-top: 160px;
+  margin-left: 18%;
+}
+
+#cimage {
+  background: url('/commercialproperties/img/bangalore.jpg') no-repeat scroll 0 0 / 500px 200px transparent;
+  height: 200px;
+  width: 500px;
+}
+
+#search-div {
+  -moz-box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  margin-left: 145px;
+  padding-top: 9px;
+  width: 471px;
+}
+
+#header-search-div {
+  -moz-box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  width: 1490px;
+}
+
+
+#header-search-box {
+  border-bottom: 1px solid #D4D4D4;
+  box-shadow: 0 1px 1px #D4D4D4;
+  overflow: auto;
+  padding: 8px 12px;
+}
+
+#search-box {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+#input-box {
+  background-color: transparent;
+  position: relative;
+  vertical-align: top;
+  border-color: #7B7B7B;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  color: #424D56;
+  height: 1.6em;
+  outline: medium none;
+  padding: 0.125em 0.5em;
+  width: 100%;
+}
+
+#apartment-listings {
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.result {
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.heading-addr {
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+.address {
+  font-size: 0.9em;
+}
